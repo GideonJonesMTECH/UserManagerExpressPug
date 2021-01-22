@@ -1,0 +1,15 @@
+{
+  "name": "usermanager",
+  "version": "1.0.0",
+  "description": "Simple user manager with a json file with all the users.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gideon Jones",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
