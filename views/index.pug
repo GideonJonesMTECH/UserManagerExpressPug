@@ -1,0 +1,10 @@
+html(lang="en")
+ head
+  title= "Gideon Jones User Manager"
+ body
+  h1(class = 'myClass', id = "myId") Pug - Node Template Engine
+  ul
+    li Username: Email: Age
+    each user in users
+      li #{user.name} UserName: #{user.username} Email: #{user.email} Age: #{user.age}
+  include foot.pug
